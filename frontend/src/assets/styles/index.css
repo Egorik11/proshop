@@ -1,0 +1,33 @@
+.rating {
+  color: #f8e825;
+  display: flex;
+  align-items: center;
+}
+
+.rating span {
+  display: flex;
+}
+
+.rating-text {
+  color: #7b8a8b;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header,
+.footer {
+  background-color: #343a40;
+}
+
+.footer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
